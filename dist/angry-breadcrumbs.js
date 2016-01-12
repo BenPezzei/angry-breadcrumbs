@@ -8,7 +8,7 @@
   'use strict';
 
   angular
-    .module('ng-breadcrumbs', [])
+    .module('angry-breadcrumbs', [])
     .factory('breadcrumbs', [
       '$rootScope',
       '$location',

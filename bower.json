@@ -1,9 +1,9 @@
 {
-  "name": "ng-breadcrumbs",
+  "name": "angry-breadcrumbs",
   "version": "0.4.1",
   "description": "A better AngularJS service to help with breadcrumb-style navigation between views",
   "keywords": [
-    "ng-breadcrumbs",
+    "angry-breadcrumbs",
     "angular",
     "angularjs",
     "breadcrumbs",
@@ -11,12 +11,12 @@
     "route"
   ],
   "authors": [
-    "Ian Kennington Walter (http://ianvonwalter.com)"
+    "float (http://float.wien)"
   ],
   "license": "MIT",
-  "homepage": "http://ianwalter.github.io/ng-breadcrumbs/",
+  "homepage": "https://github.com/BenPezzei/angry-breadcrumbs",
   "main": [
-    "dist/ng-breadcrumbs.min.js",
+    "dist/angry-breadcrumbs.min.js",
     "README.md"
   ],
   "ignore": [

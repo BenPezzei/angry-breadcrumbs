@@ -1,4 +1,4 @@
-# Changes to ng-breadcrumbs
+# Changes to angry-breadcrumbs
 
 ## v0.4.0
 1. Added #31: Add code coverage

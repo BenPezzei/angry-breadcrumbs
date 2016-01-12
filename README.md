@@ -1,13 +1,15 @@
-# [ng-breadcrumbs](http://ianwalter.github.io/ng-breadcrumbs/)
+# [angry-breadcrumbs](http://ianwalter.github.io/angry-breadcrumbs/)
 *A better AngularJS service to help with breadcrumb-style navigation between views.*
 
-[![Code Climate](https://codeclimate.com/github/ianwalter/ng-breadcrumbs.png)](https://codeclimate.com/github/ianwalter/ng-breadcrumbs)
+[![Code Climate](https://codeclimate.com/github/ianwalter/angry-breadcrumbs.png)](https://codeclimate.com/github/ianwalter/angry-breadcrumbs)
 
-[ ![Codeship Status for ianwalter/ng-breadcrumbs](https://codeship.io/projects/31427860-2e0a-0132-95a9-0275b2f5d99e/status)](https://codeship.io/projects/39305)
+[ ![Codeship Status for ianwalter/angry-breadcrumbs](https://codeship.io/projects/31427860-2e0a-0132-95a9-0275b2f5d99e/status)](https://codeship.io/projects/39305)
 
 This project was built using [ng-boilerplate](https://github.com/ianwalter/ng-boilerplate)!
 
-#### Step 1: Install ng-breadcrumbs
+#### Due to version chaos of original ng-breadcrumbs and the lack of updating the various forks, we forked ourselves and renamed the module
+
+#### Step 1: Install angry-breadcrumbs
 
 Install using Bower:
 
@@ -15,15 +17,15 @@ Install using Bower:
 bower install es-breadcrumbs --save
 ```
 
-Include ng-breadcrumbs.min.js in your app.
+Include angry-breadcrumbs.min.js in your app.
 
 #### Step 2: Set up routing
 
 In order to use breadcrumbs you'll need to use configure your app to use Angular's routeProvider. You'll also need to 
-load the ng-breadcrumbs module. You can then set a label for each route (breadcrumb) within the route options.
+load the angry-breadcrumbs module. You can then set a label for each route (breadcrumb) within the route options.
 
 ```javascript
-  var app = angular.module('ab', ['ngRoute', 'ng-breadcrumbs'])
+  var app = angular.module('ab', ['ngRoute', 'angry-breadcrumbs'])
     .config(['$routeProvider', function($routeProvider) {
       $routeProvider
         .when('/', { templateUrl: 'assets/template/home.html', label: 'Home' })

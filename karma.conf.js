@@ -4,7 +4,7 @@ module.exports = function(config) {
     'public/js/requirejs-config.js',
     'test/unit/test-main.js',
     { pattern: 'public/lib/**/*.js', included: false },
-    { pattern: 'dist/ng-breadcrumbs.min.js', included: false },
+    { pattern: 'dist/angry-breadcrumbs.min.js', included: false },
     { pattern: 'public/js/**/*.js', included: false }
   ];
 
